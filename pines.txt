@@ -1,0 +1,40 @@
+PINES
+Pines entre 0 y 31 -->  trabajar con registros A
+Pines entre 32 y 63 -->  trabajar con registros B
+
+Bluetooth	4 pines	-->  2 al micro
+	-v
+	-gnd
+	-SCIRXD --> GPIO 29 (TX)  
+	-SCITXD --> GPIO 28 (RX)  
+
+Configuracion de uart
+
+
+Ultrasonidos  	
+REQUIERE ADAPTAR LA TENSION (VER FOTO)
+
+Dos GPIO cualquiera del 0 al 31
+
+
+Acelelerometro		8 pines  -->  2 al micro
+	-V
+	-tierra
+	- SDA --> GPIO32 (datos,bidireccional)
+	- SCL --> GPIO33 (reloj,bidireccional)
+Conexiones I2C
+	
+
+
+Drivers de las ruedas
+	4 pines PWM 	(2 y 2) 
+		- GPIO 0
+		- GPIO 2
+		- GPIO 4
+		- GPIO 6
+	4 pines GPIO cualquieras (del 0 al 31)
+			
+
+
+
+
